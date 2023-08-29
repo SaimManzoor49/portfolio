@@ -27,7 +27,7 @@ export default function ExperiencesSection() {
         <h1 className='text-6xl font-bold my-4'>Think better with Next Js 13</h1>
         <div className="my-14">
 
-          <q className='quote text-lg'>It's not a bug, it's an undocumented feature.</q>
+          <q className='quote text-lg'>It&apos;s not a bug, it&apos;s an undocumented feature.</q>
           {/* <p className='text-right  max-[320px]:w-full  -mr-3 quote'>– Anonymous</p> */}
           <p className='text-right    -mr-0 sm:-mr-10   quote'>– Anonymous</p>
         </div>
