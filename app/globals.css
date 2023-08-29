@@ -3,12 +3,31 @@
 @tailwind utilities;
 
 @import url('../css/header.css');
+@import url('../css/main.css');
 
 
 body{
   background-color: #030014;
+  color: white;
+  overflow-x: hidden;
 }
  
+.shadow-in{
+
+  background: linear-gradient(180deg,rgba(60,8,126,0),rgba(60,8,126,.32)),rgba(113,47,255,.12);
+  box-shadow: inset 0 0 12px #bf97ff3d;
+}
+
+.border-color{
+  border-color: #401f788e;
+}
+.text-color{
+  color: #401f788e;
+}
+.border-color{
+  border-color: #401f788e;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+.gradient-color{
+    background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #443d8c, #2486dc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #443d8c, #2486dc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    background-clip: text;
+    color: transparent;
+
+
+}
+
+.quote{
+    font-family: 'Playfair Display', serif;
+}

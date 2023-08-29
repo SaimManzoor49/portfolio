@@ -14,11 +14,7 @@
     font-family: 'Rubik Iso', cursive;
 }
 
-.auth-button{
 
-    background: linear-gradient(180deg,rgba(60,8,126,0),rgba(60,8,126,.32)),rgba(113,47,255,.12);
-    box-shadow: inset 0 0 12px #bf97ff3d; 
-}
 
 .mid-nav-items{
    
@@ -30,3 +26,26 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+.logo:hover{
+        animation: rotate 1.3s infinite;
+}
+
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+
+  .top{
+    top: -290px;
+
+  }
+
+
+  
