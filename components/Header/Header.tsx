@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import logo from '../../public/assets/logo.webp'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '../ui/dropdown-menu'
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import { BsFillInfoSquareFill, BsInfoSquare } from 'react-icons/bs'
@@ -19,7 +18,7 @@ export default function Header() {
         <>
             <div className="flex items-center  justify-around  py-3  header z-10 ">
                 <div className="flex items-center">
-                    <Image src={logo} alt='logo' width={30} className='logo' priority />
+                    <Image src='/logo.webp' alt='logo' width={30} height={30} className='logo' priority />
                     <h6 className='text-slate-300 text-xl logo-name' >notFreak</h6>
                 </div>
                 <div className=" text-white hidden md:flex justify-around items-center border-2 border-blue-950 rounded-full py-2 mid-nav-items " style={{ width: '42vw' }}>
@@ -42,7 +41,7 @@ export default function Header() {
                             <SheetContent side={'left'} className="w-[260px] sm:w-[500px] md:hidden" >
                                 <SheetHeader>
                                     <SheetTitle className='flex items-center' >
-                                        <Image priority src={logo} alt='logo' width={30} className='logo' />
+                                        <Image priority src='/logo.webp' alt='logo' width={30} height={30} className='logo' />
                                         <p className='text-slate-300 text-xl logo-name ms-1' >notFreak</p></SheetTitle>
                                     <SheetDescription className='gap-2 flex flex-col'>
 

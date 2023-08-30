@@ -1,26 +1,15 @@
-import ExperiencesSection from "@/components/ExperiencesSection";
-import Intro from "@/components/Intro";
+import Main_Section_2 from "@/components/Main_Section_2";
+import Main_Section_1 from "@/components/Main_Section_1";
+import Main_Section_3 from "@/components/ui/Main_Section_3";
 
 export default function Home() {
   return (
    <>
-   <Intro />
-   <ExperiencesSection />
-   asokjd;al
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate ut dolorem inventore, ex hic et nostrum rem esse vel suscipit magni rerum tempora voluptates quaerat. Vero commodi perspiciatis placeat.
+   <Main_Section_1 />
+   <Main_Section_2 />
+   <Main_Section_3 />
 
+  
 
 
    </>

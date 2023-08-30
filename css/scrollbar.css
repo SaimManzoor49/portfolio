@@ -1,0 +1,47 @@
+/* Target the* element with an overflow */
+/* * {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+  } */
+  
+  /* Target the scroll bar track */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Target the thumb (the draggable part of the scroll bar) */
+  *::-webkit-scrollbar-thumb {
+    background-color: #3d19a7;
+    border-radius: 5px;
+  }
+  
+  /* Target the thumb on hover */
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #1c084a;
+  }
+  
+  /* Target the buttons at the ends of the scroll bar */
+  *::-webkit-scrollbar-button {
+    display: none; 
+    /* Hide the buttons */
+  }
+  
+  /* Target the track above and below the thumb */
+  *::-webkit-scrollbar-track {
+    /* background-color: #6e34f7; */
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #52abff, #550a96);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #52abff, #550a96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  /* Target the track above and below the thumb on hover */
+  *::-webkit-scrollbar-track:hover {
+    /* background-color: #6e34f7; */
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #52abff, #550a96);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #52abff, #550a96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  

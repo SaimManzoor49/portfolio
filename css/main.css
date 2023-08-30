@@ -13,3 +13,25 @@
 .quote{
     font-family: 'Playfair Display', serif;
 }
+
+
+.footerBG{
+    transform: rotate(180deg);
+    /* transform: translateX(400px); */
+    transition: all 2s ;
+    animation: leftToRight 5s linear 2s infinite ;
+}
+
+
+@keyframes leftToRight {
+    0%{
+        transform: translateX(100vw);
+        
+    }
+    100%{
+        transform: translateX(0px);
+        
+    }
+
+
+}
