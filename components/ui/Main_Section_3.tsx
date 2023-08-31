@@ -8,9 +8,11 @@ export default function Main_Section_3() {
     <>
     <div className="flex flex-col justify-center items-center mt-28">
 
-      <h4 className='text-6xl font-bold'>Performance <span className='gradient-color'>&</span> Security </h4>
-      <div className="relative"  >
-        <video src={'/lockBG.webm'} autoPlay loop muted style={{maxWidth:'1600px'}} />
+      <h4 className=' text-5xl sm:text-6xl text-center font-bold'>Performance <span className='gradient-color'>&</span> Security </h4>
+      <div className="relative"  style={{minHeight:'600px'}}  >
+        <div className="">
+        <video src={'/lockBG.webm'} autoPlay loop muted style={{maxWidth:'1500px'}} />
+        </div>
         <span onMouseEnter={()=>{setHover(true)}} onMouseLeave={()=>{setHover(false)}}>
 
         <Image className='absolute top-[44%] left-[46%] z-10' src={'/lockBody.png'} alt='lockBody '  height={80} width={80} style={{width:"100px",height:'auto'}} />

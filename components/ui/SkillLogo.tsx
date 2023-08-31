@@ -14,7 +14,8 @@ index: number
 export default function SkillLogo({skill,index}:props) {
   return (
     <>
-        <div className='h-auto' style={{ width:'60px'}}>
+        {/* <div className='h-auto w-[40px] sm:w-[60px] ' style={{ width:'60px'}}> */}
+        <div className='h-auto w-[40px] sm:w-[60px] ' >
             <Image src={skill.Image} alt={skill.skill_name} height={skill.hight} width={skill.width} priority />
         </div>
     

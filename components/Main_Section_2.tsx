@@ -24,7 +24,7 @@ export default function ExperiencesSMain_Section_2() {
       <div className="flex flex-col justify-center items-center mt-52 relative">
         <span className='mb-0 border-2 p-2 rounded-full flex  max-[320px]:w-full w-72 items-center gap-2 shadow-i border-color -z-1 ' ref={IntroTopElement} style={topElementIntroStyles}> <BsStars /> Joiner Full Stack Software Engineer</span>
 
-        <h1 className='text-6xl font-bold my-4'>Think better with Next Js 13</h1>
+        <h1 className='text-5xl pl-1 text-center  sm:text-6xl font-bold my-4'>Think better with Next Js 13</h1>
         <div className="my-14">
 
           <q className='quote text-lg'>It&apos;s not a bug, it&apos;s an undocumented feature.</q>
@@ -35,7 +35,7 @@ export default function ExperiencesSMain_Section_2() {
 
         <Technologies />
         </div>
-        <video src="/assets/cards-video.webm"   height={600} loop muted autoPlay   className='absolute top-1/3 -z-10 opacity-75 ' ></video>
+        <video src="/cards-video.webm"   height={600} loop muted autoPlay   className='absolute top-1/3 -z-10 opacity-75 ' ></video>
       </div>
     </>
   )

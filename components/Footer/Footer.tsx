@@ -8,7 +8,7 @@ import { RiMailAddFill } from 'react-icons/ri'
 export default function Footer() {
   return (
     <>
-    <div className="flex justify-around items-center my-20 flex-wrap">
+    <div className="flex px-4 justify-between smxl:justify-around items-center  my-20 flex-wrap gap-4">
 
     <div className="">
         <h6 className='text-2xl font-bold' >Contacts</h6>
@@ -27,9 +27,9 @@ export default function Footer() {
         </div>
 
     </div>
-    <div className="">
+    <div className=" ">
         <h6 className='text-2xl font-bold' >About</h6>
-        <div className=" flex flex-col justify-between h-32 mt-6" >
+        <div className=" flex flex-col justify-between h-32 mt-6 " >
             <p className='flex items-center gap-3 text-lg' ><MdOutlineEngineering />Software Engineer</p>
             <p className='flex items-center gap-3 text-lg' ><FcReading /> Learn About me</p>
             <Link href={''} className='flex items-center gap-3 text-lg' ><RiMailAddFill />saimmanzoor49@yahoo.com</Link>
@@ -39,10 +39,10 @@ export default function Footer() {
 
     </div>
     <div className="flex flex-col justify-center items-center p-4 relative ">
-        <p className=' absolute  font-bold logo-name '>&copy; Saim Manzoor {new Date().getFullYear()} Inc. All rights reserved.</p>
+        <p className=' absolute text-center font-bold logo-name '>&copy; Saim Manzoor {new Date().getFullYear()} Inc. All rights reserved.</p>
         {/* <video src="/footerBG.MOV" autoPlay loop muted   className='absolute z-10' ></video> */}
         <video src="/footerBG.MOV" autoPlay loop muted style={{maxWidth: '186px',
-    maxHeight: '850px'}}  className='absolute -z-10 footerBG left-[-14vw] top-[-95%] opacity-75 ' ></video>
+    maxHeight: '850px'}}  className=' hidden xsm:block absolute -z-10 footerBG left-[-14vw] top-[-95%] opacity-75 ' ></video>
     </div>
     </>
   )

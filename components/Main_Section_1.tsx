@@ -43,12 +43,12 @@ export default function Main_Section_1() {
 
 
         <div className="w-full  lg:w-1/2" style={leftIntroStyles} ref={IntroLeft} >
-          <div className="pr-10 mt-16 flex justify-center items-center flex-col text-center lg:block lg:justify-start lg:flex-col lg:text-start  ">
+          <div className=" mt-16 flex justify-center items-center flex-col text-center lg:block lg:justify-start lg:flex-col lg:text-start  ">
 
             <span className='mb-0 border-2 p-2 rounded-full flex  max-[320px]:w-full w-72 items-center gap-2 shadow-i border-color ' ref={IntroTopElement} style={topElementIntroStyles}> <BsStars /> Joiner Full Stack Software Engineer</span>
 
-            <h1 className='text-7xl font-bold ' >Providing <span className='gradient-color'> the best </span> Project experience</h1>
-            <p className='text-lg font-bold text-gray-400 mt-4'>All the best and most modern resources at your fingertips. Access online Website, Mobile, Software, coding examples, tutorials and much more. All in one place</p>
+            <h1 className='text-4xl sm:text-7xl font-bold ' >Providing <span className='gradient-color'> the best </span> Project experience</h1>
+            <p className='text-base sm:text-lg font-bold text-gray-400 mt-4'>All the best and most modern resources at your fingertips. Access online Website, Mobile, Software, coding examples, tutorials and much more. All in one place</p>
             <Button variant="outline" className='text-lg px-7 shadow-in border-color font-bold mt-4'>Hire meh!!</Button>
 
 
