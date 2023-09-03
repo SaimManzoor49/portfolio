@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 import { LucideClipboardCopy } from 'lucide-react'
 import Link from 'next/link'
 import { BiArrowBack } from 'react-icons/bi'
-export default function page() {
+export default function Page() {
   const [copied, setIsCopied] = useState(false)
 
   const { id } = useParams()

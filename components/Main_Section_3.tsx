@@ -6,9 +6,6 @@ import React, { useEffect, useState } from 'react'
 export default function Main_Section_3() {
   const [hover, setHover] = useState(false)
 
-useEffect(()=>{
-  console.log(hover)
-},[])
 
   return (
     <>
