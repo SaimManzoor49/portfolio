@@ -18,13 +18,14 @@ export default function Main_Section_1() {
   const isInViewTopElementIntro = useInView(IntroTopElement, { once: true });
 
   const leftIntroStyles = {
-    transform: isInViewLeftIntro ? "none" : "translateX(-200px)",
+    transform: isInViewLeftIntro ? "none" : "translateX(-50px)",
     opacity: isInViewLeftIntro ? 1 : 0,
     transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s"
+
   }
 
   const rightIntroStyles = {
-    transform: isInViewRightIntro ? "none" : "translateX(200px)",
+    transform: isInViewRightIntro ? "none" : "translateX(50px)",
     opacity: isInViewRightIntro ? 1 : 0,
     transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s"
   }
@@ -38,13 +39,13 @@ export default function Main_Section_1() {
     <>
     <div className="relative">
 
-      <div className='absolute top-[-384px] -z-10'>
+      <div className='absolute top-[-388px] -z-10'>
         <video id='13' className="rotate-180 w-screen  " style={{ height: "590px" }}    loop muted autoPlay src="/BLight.webm"  ></video>
       </div>
       <div className="mt-40 flex justify-center items-center  lg:px-20 ">
 
 
-        <div className="w-full  lg:w-1/2" style={leftIntroStyles} ref={IntroLeft} >
+        <div className="w-ful  lg:w-1/2" style={leftIntroStyles} ref={IntroLeft} >
           <div className=" mt-16 flex justify-center items-center flex-col text-center lg:block lg:justify-start lg:flex-col lg:text-start  ">
 
             <span className='mb-0 border-2 p-2 rounded-full flex  max-[320px]:w-full w-72 items-center gap-2 shadow-i border-color ' ref={IntroTopElement} style={topElementIntroStyles}> <BsStars /> Joiner Full Stack Software Engineer</span>
