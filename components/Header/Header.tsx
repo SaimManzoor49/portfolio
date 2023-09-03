@@ -16,7 +16,9 @@ import { ImBooks } from 'react-icons/im'
 export default function Header() {
     return (
         <>
-            <div className="flex items-center  justify-around  py-3  header z-10 ">
+        <div className="header z-40">
+
+            <div className="flex items-center  justify-around  py-3   ">
                 <div className="flex items-center">
                     <Image src='/logo.webp' alt='logo' width={30} height={30} className='logo' priority />
                     <h6 className='text-slate-300 text-xl logo-name' >notFreak</h6>
@@ -28,7 +30,7 @@ export default function Header() {
                     <DropdownMenu >
                         <DropdownMenuTrigger className='flex items-center'>More <RiArrowDropDownLine size={'24px'} /></DropdownMenuTrigger>
 
-                        <DropdownMenuContent className='py-3'>
+                        <DropdownMenuContent  className='py-3'>
                             <DropdownMenuItem><BsFillInfoSquareFill className='me-3 text-blue-400' size={'18px'} /> About</DropdownMenuItem>
                             <DropdownMenuItem> <FaSquarePhone className='me-2 text-blue-400' size={'21px'} />Contact</DropdownMenuItem>
                         </DropdownMenuContent>
@@ -59,6 +61,7 @@ export default function Header() {
                     <Button variant="outline" className='shadow-in border-color'>Sign In</Button>
                 </div>
             </div>
+        </div>
         </>
         // warning app-index.js:31 Warning: Extra attributes from the server: class,style at html
     )

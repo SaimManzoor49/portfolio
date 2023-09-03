@@ -10,7 +10,11 @@
 body{
   background-color: #030014;
   color: white;
+}
+
+html{
   overflow-x: hidden;
+
 }
  
 .shadow-in{

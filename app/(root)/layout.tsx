@@ -18,15 +18,19 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en"  >
       <body >
       <ThemeProvider attribute="class"  defaultTheme='dark' enableSystem={false} themes={['dark']}>
         <>
+        <div className="h-auto w-auto m-auto">
+
+
     <Header />
 
         {children}
         
     <Footer />
+   </div>
         </>
         </ThemeProvider>
         </body>

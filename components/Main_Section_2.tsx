@@ -25,13 +25,13 @@ export default function ExperiencesSMain_Section_2() {
         <span className='mb-0 border-2 p-2 rounded-full flex  max-[320px]:w-full w-72 items-center gap-2 shadow-i border-color -z-1 ' ref={IntroTopElement} style={topElementIntroStyles}> <BsStars /> Joiner Full Stack Software Engineer</span>
 
         <h1 className='text-5xl pl-1 text-center  sm:text-6xl font-bold my-4'>Think better with Next Js 13</h1>
-        <div className="my-14">
+        <div className="mt-14">
 
           <q className='quote text-lg'>It&apos;s not a bug, it&apos;s an undocumented feature.</q>
           {/* <p className='text-right  max-[320px]:w-full  -mr-3 quote'>– Anonymous</p> */}
           <p className='text-right    -mr-0 sm:-mr-10   quote'>– Anonymous</p>
         </div>
-        <div className="mb-14">
+        <div className="">
 
         <Technologies />
         </div>

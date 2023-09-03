@@ -36,8 +36,10 @@ export default function Main_Section_1() {
 
   return (
     <>
-      <div className=' relative'>
-        <video className="rotate-180 w-screen absolute top -z-10 " style={{ height: "590px" }}  loop muted autoPlay src="/BLight.webm" ></video>
+    <div className="relative">
+
+      <div className='absolute top-[-384px] -z-10'>
+        <video id='13' className="rotate-180 w-screen  " style={{ height: "590px" }}    loop muted autoPlay src="/BLight.webm"  ></video>
       </div>
       <div className="mt-40 flex justify-center items-center  lg:px-20 ">
 
@@ -59,6 +61,7 @@ export default function Main_Section_1() {
           <Image src={'https://hyat-myat.vercel.app/mainIconsdark.svg'} alt='stack' width={800} height={200} style={{ width: '100%', height: '500px' }} />
         </div>
       </div>
+            </div>
     </>
   )
 }
