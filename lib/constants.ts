@@ -445,6 +445,7 @@ interface Project_data{
   conclusion_blog: string,
   youtube_link: string,
   githhub_link: string,
+  deployed_link:string,
   frontend_dowload_link: string,
   backend_dowload_link: string,
   project_image: string,
@@ -485,7 +486,8 @@ interface Project_data{
       ],
       conclusion_blog: "",
       youtube_link: "https://youtu.be/v3LJMcWbcDQ",
-      githhub_link: "https://github.com/HyatMyat4",
+      githhub_link: "https://github.com/SaimManzoor49/portfolio.git",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/HyatMyat_Profiol/archive/refs/heads/main.zip",
       backend_dowload_link: "",
@@ -546,6 +548,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/v3LJMcWbcDQ",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/Nike_Shoes/archive/refs/heads/main.zip",
       backend_dowload_link:
@@ -608,6 +611,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/yF1oJ7wzvWY",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/AdminDashboard/archive/refs/heads/main.zip",
       backend_dowload_link:
@@ -660,6 +664,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/AxQ_Eli8gtk",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/Deliveroo_Mobile.apk/archive/refs/heads/main.zip",
       backend_dowload_link:
@@ -723,6 +728,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/yF1oJ7wzvWY",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/AdminDashboard/archive/refs/heads/main.zip",
       backend_dowload_link:
@@ -771,6 +777,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/R90bxY4UwPg",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/Chat_GPT4/archive/refs/heads/main.zip",
       backend_dowload_link: "",
@@ -831,6 +838,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/v3LJMcWbcDQ",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/Nike_Shoes/archive/refs/heads/main.zip",
       backend_dowload_link:
@@ -882,6 +890,7 @@ interface Project_data{
         "As I said at the beginning, this is a great project for begginers and even for those who are not new to React . I bealive this is a grat project to have in a resume or portfolio. I am very happy with the app and I hope you will enjoy it as well.",
       youtube_link: "https://youtu.be/6wzf2ho-kzI",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/Profiol_2/archive/refs/heads/main.zip",
       backend_dowload_link: "",
@@ -922,6 +931,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/IqYbA6ZZ-e4",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/ApexLegends.com/archive/refs/heads/main.zip",
       backend_dowload_link: "",
@@ -973,6 +983,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "https://youtu.be/cLKsNVSyPMM",
       githhub_link: "https://github.com/HyatMyat4",
+      deployed_link:'',
       frontend_dowload_link:
         "https://github.com/HyatMyat4/GrapeMedia/archive/refs/heads/main.zip",
       backend_dowload_link:
@@ -996,6 +1007,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "",
       githhub_link: "",
+      deployed_link:'',
       frontend_dowload_link: "",
       backend_dowload_link: "",
       project_image: "/logos/goserver.png",
@@ -1024,6 +1036,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "",
       githhub_link: "",
+      deployed_link:'',
       frontend_dowload_link: "",
       backend_dowload_link:
         "https://github.com/HyatMyat4/Nike_Backend/archive/refs/heads/main.zip",
@@ -1054,6 +1067,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "",
       githhub_link: "",
+      deployed_link:'',
       frontend_dowload_link: "",
       backend_dowload_link:
         "https://github.com/HyatMyat4/DeshboardBackend/archive/refs/heads/main.zip",
@@ -1083,6 +1097,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "",
       githhub_link: "",
+      deployed_link:'',
       frontend_dowload_link: "",
       backend_dowload_link:
         "https://github.com/HyatMyat4/Deliveroo/archive/refs/heads/main.zip",
@@ -1121,6 +1136,7 @@ interface Project_data{
       conclusion_blog: "",
       youtube_link: "",
       githhub_link: "",
+      deployed_link:'',
       frontend_dowload_link: "",
       backend_dowload_link: "",
       project_image: "",

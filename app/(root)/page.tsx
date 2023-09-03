@@ -8,9 +8,9 @@ export default function Home() {
    <>
 
    
-   {/* <Main_Section_1 />
+   <Main_Section_1 />
    <Main_Section_2 />
-   <Main_Section_3 /> */}
+   <Main_Section_3 />
    <Main_Section_4 />
 
   
