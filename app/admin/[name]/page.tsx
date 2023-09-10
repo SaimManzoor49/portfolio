@@ -5,7 +5,7 @@ import AdminSidebar from '@/components/Dashboard/AdminSidebar'
 import UpdateProfile from '@/components/Dashboard/UpdateProfile'
 import React, { useState } from 'react'
 
-export default function page() {
+export default function Page() {
   const [compToShow,setCompToShow]=useState('addproject')
 
   const  handleComp = (val:string)=>{
