@@ -24,7 +24,7 @@ export default function Main_Section_3() {
         </div>
 
         <div className="lg:hidden w-full">
-          <div className="flex justify-center items-center relative w-full " style={{ minHeight: '600px' }}>
+          <div className="flex justify-center items-center relative w-full " style={{ minHeight: '400px' }}>
 
             <span  className=' ' onMouseEnter={() => { setHover(true) }} onMouseLeave={() => { setHover(false) }} >
               <Image className={` absolute top-[29%]    left-[40%] xsm:left-[43%]  sm:left-[46%]      ml-3 ${hover && 'top-[36%]'} transition-all duration-300 `} src={'/lockTop.webp'} alt='lockBody ' height={75} width={75} style={{ width: "75px", height: 'auto' }} />

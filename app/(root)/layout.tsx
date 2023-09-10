@@ -20,20 +20,20 @@ export default function RootLayout({
   return (
     <html lang="en"  >
       <body >
-      <ThemeProvider attribute="class"  defaultTheme='dark' enableSystem={false} themes={['dark']}>
-        <>
-        <div className="h-auto w-auto m-auto">
+        <ThemeProvider attribute="class" defaultTheme='dark' enableSystem={false} themes={['dark']}>
+          <>
+            <div className="h-auto w-auto m-auto">
 
 
-    <Header />
+              <Header />
 
-        {children}
-        
-    <Footer />
-   </div>
-        </>
+              {children}
+
+              <Footer />
+            </div>
+          </>
         </ThemeProvider>
-        </body>
+      </body>
     </html>
   )
 }

@@ -59,7 +59,7 @@ export default function Main_Section_1() {
         </div>
         <div className=" w-1/2 hidden lg:flex  justify-center " style={rightIntroStyles} ref={IntroRight}>
 
-          <Image src={'https://hyat-myat.vercel.app/mainIconsdark.svg'} alt='stack' width={800} height={200} style={{ width: '100%', height: '500px' }} />
+          <Image src={'https://hyat-myat.vercel.app/mainIconsdark.svg'} alt='stack' width={800} height={200} style={{ width: '100%', height: '500px' }} className='object-contain' />
         </div>
       </div>
             </div>
