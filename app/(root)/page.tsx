@@ -5,17 +5,25 @@ import Main_Section_4 from "@/components/Main_Section_4";
 
 export default function Home() {
   return (
-   <>
-
-   
-   <Main_Section_1 />
-   <Main_Section_2 />
-   <Main_Section_3 />
-   <Main_Section_4 />
-
-  
+    <>
 
 
-   </>
+      <div id="home">
+        <Main_Section_1 />
+      </div>
+      <div id="resources">
+        <Main_Section_2 />
+      </div>
+      <div id="main">
+        <Main_Section_3 />
+      </div>
+      <div id="projects">
+        <Main_Section_4 />
+      </div>
+
+
+
+
+    </>
   )
 }

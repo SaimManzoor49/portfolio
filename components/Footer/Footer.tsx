@@ -41,8 +41,8 @@ export default function Footer() {
     <div className="flex flex-col justify-center items-center p-4 relative ">
         <p className=' absolute text-center font-bold logo-name '>&copy; Saim Manzoor {new Date().getFullYear()} Inc. All rights reserved.</p>
         {/* <video src="/footerBG.MOV" autoPlay loop muted   className='absolute z-10' ></video> */}
-        <video src="/footerBG.MOV" autoPlay loop muted style={{maxWidth: '186px',
-    maxHeight: '850px'}}  className=' hidden xsm:block absolute -z-10 footerBG left-[-14vw] top-[-95%] opacity-75 ' ></video>
+        {/* <video src="/footerBG.MOV" autoPlay loop muted style={{maxWidth: '186px',
+    maxHeight: '850px'}}  className=' hidden xsm:block absolute -z-10 footerBG left-[-14vw] top-[-95%] opacity-75 ' ></video> */}
     </div>
     </>
   )

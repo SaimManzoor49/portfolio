@@ -10,6 +10,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { AiOutlineHome } from 'react-icons/ai'
 import { PiProjectorScreenChartBold } from 'react-icons/pi'
 import { ImBooks } from 'react-icons/im'
+import Link from 'next/link'
 
 
 
@@ -21,17 +22,17 @@ export default function Header() {
             <div className="flex items-center  justify-around  py-3   ">
                 <div className="flex items-center">
                     <Image src='/logo.webp' alt='logo' width={30} height={30} className='logo' priority />
-                    <h6 className='text-slate-300 text-xl logo-name' >notFreak</h6>
+                    <Link href={'/'}><h6 className='text-slate-300 text-xl logo-name' >notFreak</h6></Link>
                 </div>
                 <div className=" text-white hidden md:flex justify-around items-center border-2 border-blue-950 rounded-full py-2 mid-nav-items " style={{ width: '42vw' }}>
-                    <p className='text-sm'>Home</p>
-                    <p className='text-sm'>Project</p>
-                    <p className='text-sm'>Resources</p>
+                   <Link href={'#home'}> <p className='text-sm'>Home</p></Link>
+                   <Link href={'#projects'}> <p className='text-sm'>Project</p></Link>
+                    <Link href={'#resources'}><p className='text-sm'>Resources</p></Link>
                     <DropdownMenu >
                         <DropdownMenuTrigger className='flex items-center'>More <RiArrowDropDownLine size={'24px'} /></DropdownMenuTrigger>
 
                         <DropdownMenuContent  className='py-3'>
-                            <DropdownMenuItem><BsFillInfoSquareFill className='me-3 text-blue-400' size={'18px'} /> About</DropdownMenuItem>
+                        <Link href={'/about'}><DropdownMenuItem><BsFillInfoSquareFill className='me-3 text-blue-400' size={'18px'} /> About</DropdownMenuItem></Link>
                             <DropdownMenuItem> <FaSquarePhone className='me-2 text-blue-400' size={'21px'} />Contact</DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
@@ -48,7 +49,7 @@ export default function Header() {
                                     <SheetDescription className='gap-2 flex flex-col'>
 
                                         <Button variant="outline" className='auth-button w-full'><AiOutlineHome size={18} className='me-2' /> Home</Button>
-                                        <Button variant="outline" className='auth-button w-full' > <BsInfoSquare size={18} className='me-2' />About</Button>
+                                        <Link href={'/about'}><Button variant="outline" className='auth-button w-full' > <BsInfoSquare size={18} className='me-2' />About</Button></Link>
                                         <Button variant="outline" className='auth-button w-full' > <MdContactPhone size={18} className='me-2' />Contact</Button>
                                         <Button variant="outline" className='auth-button w-full' > <PiProjectorScreenChartBold size={18} className='me-2' />Projects</Button>
                                         <Button variant="outline" className='auth-button w-full' > <ImBooks size={18} className='me-2 ' />Resources</Button>
